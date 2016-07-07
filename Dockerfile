@@ -20,6 +20,6 @@ WORKDIR /opt/kafka
 
 VOLUME [/tmp/kafka_data/logs"]
 
-EXPOSE 9092
+#EXPOSE 9092
 
 CMD ["/tmp/kafka_bin/start-kafka.sh"]
