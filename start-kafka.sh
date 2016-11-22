@@ -5,8 +5,8 @@ echo $SERVER_PROPERTIES
 echo "broker.id=" ${brokerId}  >> ${SERVER_PROPERTIES}
 echo "port=" ${port} >> ${SERVER_PROPERTIES}
 echo "host.name=" ${hostId}  >> ${SERVER_PROPERTIES}
-echo "advertised.port=" ${port} >> ${SERVER_PROPERTIES}
-echo "advertised.host.name=" ${hostId}  >> ${SERVER_PROPERTIES}
+echo "advertised.port=" ${adPort} >> ${SERVER_PROPERTIES}
+echo "advertised.host.name=" ${adHostId}  >> ${SERVER_PROPERTIES}
 echo "zookeeper.connect=" ${zookeepers}  >> ${SERVER_PROPERTIES}
 
 # start kafka service
